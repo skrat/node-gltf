@@ -1,0 +1,10 @@
+{
+  "name": "gltf",
+  "version": "1.0.0",
+  "description": "Builds COLLADA2GLTF tool",
+  "scripts": {
+    "preinstall": "scripts/build.sh"
+  },
+  "author": "Dusan Maliarik",
+  "license": "WTFPL"
+}
