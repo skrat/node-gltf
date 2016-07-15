@@ -1,0 +1,37 @@
+diff --git a/COLLADA2GLTF/JSON/JSONNumber.cpp b/COLLADA2GLTF/JSON/JSONNumber.cpp
+index b18a2b3..bf93e08 100644
+--- a/COLLADA2GLTF/JSON/JSONNumber.cpp
++++ b/COLLADA2GLTF/JSON/JSONNumber.cpp
+@@ -25,6 +25,7 @@
+ // THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ 
+ #include "GLTF.h"
++#include <cstring>
+ 
+ #if __cplusplus <= 199711L
+ using namespace std::tr1;
+diff --git a/COLLADA2GLTF/dependencies/OpenCOLLADA b/COLLADA2GLTF/dependencies/OpenCOLLADA
+--- a/COLLADA2GLTF/dependencies/OpenCOLLADA
++++ b/COLLADA2GLTF/dependencies/OpenCOLLADA
+@@ -1 +1 @@
+-Subproject commit fedad28dcd23282d4f0ffc78f2cba14ea6ab9744
++Subproject commit fedad28dcd23282d4f0ffc78f2cba14ea6ab9744-dirty
+diff --git a/COLLADA2GLTF/helpers/geometryHelpers.cpp b/COLLADA2GLTF/helpers/geometryHelpers.cpp
+index 7d02e4b..0e164fc 100644
+--- a/COLLADA2GLTF/helpers/geometryHelpers.cpp
++++ b/COLLADA2GLTF/helpers/geometryHelpers.cpp
+@@ -24,6 +24,7 @@
+ #include "GLTF.h"
+ #include <stdio.h>
+ #include <stdlib.h>
++#include <cstring>
+ #include "geometryHelpers.h"
+ 
+ #if __cplusplus <= 199711L
+@@ -834,4 +835,4 @@ namespace GLTF
+     }
+     */
+     
+-}
+\ No newline at end of file
++}
