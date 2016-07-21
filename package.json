@@ -1,10 +1,10 @@
 {
   "name": "gltf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Builds COLLADA2GLTF tool",
   "main": "index.js",
   "scripts": {
-    "preinstall": "scripts/build.sh"
+    "preinstall": "node scripts/install.js"
   },
   "author": "Dusan Maliarik",
   "license": "WTFPL"
